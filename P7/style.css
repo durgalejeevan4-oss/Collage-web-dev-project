@@ -1,0 +1,63 @@
+
+/* Design tokens */
+
+:root {
+    --blue: #315c9b;
+    --black: #222;
+    --gray: #666;
+    --white: white;
+
+    --small: 14px;
+    --normal: 16px;
+    --heading: 28px;
+
+    --space: 20px;
+}
+
+/* Basic styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: var(--black);
+    margin: 20px;
+}
+
+/* Headings */
+
+h1 {
+    font-size: 36px;
+    color: var(--blue);
+}
+
+h2 {
+    font-size: var(--heading);
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* Paragraph */
+
+p {
+    font-size: var(--normal);
+    color: var(--gray);
+    line-height: 1.5;
+}
+
+/* Sections */
+
+section {
+    background-color: var(--white);
+    padding: var(--space);
+    margin-bottom: var(--space);
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    font-size: var(--small);
+}
